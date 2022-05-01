@@ -5,8 +5,9 @@ import './App.scss'
 import './helper/util'
 
 // import bgImage from './media/certificate_bg.svg'
-import bgImage from './media/bg2.svg'
-import bgBage from './media/a.svg'
+// import bgImage from "./media/certificate_1.svg";
+import bgImage from "./media/certificate_4.svg";
+// import bgBage from './media/a.svg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,9 +21,9 @@ function App() {
         <img className="certificate__bg" src={bgImage} />
         <div className="certificate__content">
           <div className="certficate__content__badge">
-            <div className="badge">
+            {/* <div className="badge">
               <img className="badge__2020-awards" src={bgBage} />
-            </div>
+            </div> */}
           </div>
           <div className="certificate__content__text">
             <div className="certificate__apperication">
