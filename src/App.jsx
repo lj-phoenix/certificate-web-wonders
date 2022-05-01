@@ -6,7 +6,7 @@ import './helper/util'
 
 // import bgImage from './media/certificate_bg.svg'
 // import bgImage from "./media/certificate_1.svg";
-import bgImage from "./media/certificate_4.svg";
+import bgImage from "./media/Certificate_4.svg";
 // import bgBage from './media/a.svg'
 
 function App() {
