@@ -126,7 +126,7 @@ function Certificate() {
                 Certificate <br />
                 <span className="certificate__apperication__title__light">
                   {" "}
-                  of Apperication{" "}
+                  of Appreciation{" "}
                 </span>
               </div>
             </div>
