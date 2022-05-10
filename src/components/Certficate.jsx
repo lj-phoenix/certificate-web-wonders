@@ -45,7 +45,7 @@ function Certificate() {
       case `mentor`:
         return `To convey our appreciation and commemorate your dedicated involvement and services in our 3 days <span class="bold">web wonders Workshop</span> by Phoenix Club`;
       case `participant`:
-        return `For their continuous efforts and lasting commitment to the event web wonders where they learnt introduction to web development along with a capstone project.`;
+        return `For their continuous efforts and lasting commitment to the event <span class="bold">web wonders</span> where they learnt introduction to web development along with a capstone project.`;
       default:
         return "";
     }
