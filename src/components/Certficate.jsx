@@ -51,6 +51,19 @@ function Certificate() {
     }
   }
 
+  function certificateHeader(type) {
+    switch (type) {
+      case `1st`:
+        return `Excellence`;
+      case `2nd`:
+        return `Excellence`;
+      case `3rd`:
+        return `Excellence`;
+      default:
+        return "APPRECIATION";
+    }
+  }
+
   useEffect(() => {
     setHtmlStringVerify(htmlRef.current.innerText);
     setInfo({
@@ -126,7 +139,7 @@ function Certificate() {
                 Certificate <br />
                 <span className="certificate__apperication__title__light">
                   {" "}
-                  of Appreciation{" "}
+                  of {certificateHeader(student.type)}{" "}
                 </span>
               </div>
             </div>
@@ -138,7 +151,9 @@ function Certificate() {
               <div className="info-person">{capitalize(info.name)}</div>
               <div
                 className="info-description"
-                dangerouslySetInnerHTML={{__html: info.certificateApperication}}
+                dangerouslySetInnerHTML={{
+                  __html: info.certificateApperication,
+                }}
               >
                 {/* {info.certificateApperication} */}
               </div>
