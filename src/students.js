@@ -829,7 +829,7 @@ export const students = [
   {
     id: 118,
     email: 'smitkanzariya2003@gmail.com',
-    name: 'Vivek Thobani',
+    name: 'Vivek Thobhani',
     type: 'mentor',
     isActive: true,
   },
